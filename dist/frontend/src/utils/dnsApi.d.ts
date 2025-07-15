@@ -1,0 +1,14 @@
+export declare const getZones: () => Promise<any>;
+export declare const createZone: (data: any) => Promise<any>;
+export declare const updateZone: (id: string, data: any) => Promise<any>;
+export declare const deleteZone: (id: string) => Promise<any>;
+export declare const getRecords: (zoneId: string) => Promise<any>;
+export declare const addRecord: (zoneId: string, data: any) => Promise<any>;
+export declare const updateRecord: (zoneId: string, id: string, data: any) => Promise<any>;
+export declare const deleteRecord: (zoneId: string, id: string) => Promise<any>;
+export declare const startTunnel: (userId: string, port: number) => Promise<any>;
+export declare const stopTunnel: (userId: string) => Promise<any>;
+export declare const tunnelStatus: (userId: string) => Promise<any>;
+export declare const importZone: (data: any) => Promise<any>;
+export declare const exportZone: (zoneId: string) => Promise<any>;
+export declare const syncCloudPanel: (data: any) => Promise<any>;
